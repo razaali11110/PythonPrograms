@@ -1,12 +1,6 @@
 # Count the letters of string in Dictionary
 
-n=input("Enter Name : ")
-
-A=[]
-for i in range(len(n)):
-    for j in n[i]:
-        A.append(j)
-print(A)
+A=input("Enter Name : ")
 
 dict1={}
 for ltr in A:
