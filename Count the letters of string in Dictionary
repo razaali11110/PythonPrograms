@@ -1,0 +1,15 @@
+# Count the letters of string in Dictionary
+
+n=input("Enter Name : ")
+
+A=[]
+for i in range(len(n)):
+    for j in n[i]:
+        A.append(j)
+print(A)
+
+dict1={}
+for ltr in A:
+    if ltr in dict1:    dict1[ltr] += 1
+    else:               dict1[ltr] = 1
+print(dict1)
