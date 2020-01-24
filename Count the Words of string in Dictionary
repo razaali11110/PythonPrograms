@@ -1,0 +1,9 @@
+A=input("Enter Name : ")
+
+A = A.lower().split()
+
+dict1 = {}
+for item in A:
+    if item in dict1:   dict1[item] += 1
+    else:               dict1[item] = 1
+print(dict1)
