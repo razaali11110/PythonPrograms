@@ -1,0 +1,19 @@
+# Sorting Numbers without sort function in list
+
+n=int(input("How many numbers : "))
+
+A=[]
+for i in range(n):
+    x=int(input("Enter number : "))
+    A.append(x)
+
+print("before sorting\t",A)
+
+for i in range(len(A)-1,0,-1):
+    for j in range(i):
+        if A[j]>A[j+1]:
+            temp=A[j]
+            A[j]=A[j+1]
+            A[j+1]=temp
+            
+print("after sorting\t",A)
