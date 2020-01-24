@@ -1,0 +1,10 @@
+n=input("Enter Name : ")
+n=n.lower()
+a="aeiou"
+b=""
+for i in n:
+    if i in a:
+        pass
+    else:
+        b+=i
+print(b)
