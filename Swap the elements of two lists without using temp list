@@ -1,0 +1,22 @@
+# Swap the elements of two lists without using temp list
+
+A=[]
+B=[]
+num=int(input("How many numbers you will enter : "))
+for i in range(2):
+    for j in range(num):
+        if i==0 :
+            n=int(input("Enter Number for list A : "))
+            A.append(n)
+        if i==1:
+            o=int(input("Enter Number for list B : "))
+            B.append(o)
+print("printing A: ",A)
+print("printing B: ",B)
+print()
+for i in range(len(A)):
+    A[i]=A[i]+B[i]
+    B[i]=A[i]-B[i]
+    A[i]=A[i]-B[i]
+print("printing A: ",A)
+print("printing B: ",B)
