@@ -1,0 +1,15 @@
+# minn and maxx value in TUPLE
+
+n=int(input("How many numbers you will enter : "))
+
+A=[]                                                    #Appending numbers into list
+for i in range(n):
+        x=input( "Enter Number : ")
+        A.append(x)
+A=tuple(A)
+
+minn=A[0]
+for x in A:
+        if x<minn:      minn=x
+        if x>minn:      maxx=x
+print("minimum is ",minn ," and maximum is ",maxx)
