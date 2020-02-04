@@ -1,0 +1,5 @@
+x=input("Enter Your Name: ")
+#y=print(x.lower())
+b=int(input("Enter any number: "))
+print(x.lower()[0:b]+x.upper()[b:])
+#x=input("Enter any character to be in lower case: ")
