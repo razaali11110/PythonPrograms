@@ -1,0 +1,7 @@
+
+ID : 1
+Name : Junaid
+SAlary : 12
+ID : 2
+Name : Ali
+SAlary : 13
