@@ -1,0 +1,9 @@
+n=int(input("Enter Number: "))
+div=""
+for i in range(2,10):
+    if n%i==0:
+        div+=str(i)
+
+print(n,"is divisible by",end=" ")
+for i in div:
+    print(i,end=" ")
