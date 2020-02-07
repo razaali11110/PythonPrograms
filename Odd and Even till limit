@@ -1,0 +1,8 @@
+def show(limit):
+    if limit%2==0:
+        return limit,"EVEN"
+    if limit%2==1:
+        return limit, "ODD"
+n=int(input("Enter Number : "))
+for i in range(n+1):
+    print(show(i))
