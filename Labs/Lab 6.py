@@ -35,6 +35,19 @@ else:
         a=b
         b=c
         print(c)
+        
+ #ALTERNATIVE
+n=int(input("Enter Number for fibonnica series : "))
+a=0
+b=1
+for i in range(n):
+    if i == 0:
+        print("0")
+    else:
+        c=a+b
+        a=b
+        b=c
+        print(c)
 
 # Lab 6.4
 
